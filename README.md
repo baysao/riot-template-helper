@@ -6,23 +6,7 @@ Your riotjs tag component
 ```
 <todo>
   <h3>{ opts.title }</h3>
-  <ul>
-    <li each={ data.books }>
-      <label>
-           { author }
-           { name }
-      </label>
-
-    </li>
-  </ul>
-  <script>
-    this.getMeteorData = function() {
-      return {
-        books: Books.find().fetch()
-      };
-    }
-    this.mixin('RiotMeteorData');
-  </script>
+  <h3>{ opts.books }</h3>
 </todo>
 ```
 ```html
