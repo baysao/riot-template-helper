@@ -33,6 +33,3 @@ Template['Home'].helpers({
   }
 })
 ```
-
-Check out the [Riot in Meteor guide](http://riot-in-meteor.readthedocs.org/en/latest/) to learn how to use Meteor and Riot
-together to build awesome apps.
