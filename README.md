@@ -2,6 +2,7 @@ Lets you easily include Riot components in Meteor templates. Pass the
 component class through the `component` argument.
 
 [Demo](http://simple-todos-riot-meteor-data.meteor.com/)
+
 [Code](https://github.com/baysao/simple-todos-riot-meteor-data.git)
 
 Examples:
