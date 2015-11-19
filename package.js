@@ -1,6 +1,6 @@
 Package.describe({
   name: 'baysao:riot-template-helper',
-  version: '0.1.0',
+  version: '0.1.1-0',
   // Brief, one-line summary of the package.
   summary: 'Use Riot components in native Meteor templates',
   // URL to the Git repository containing the source code for this package.
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
 
   api.use([
     'templating',
-    'baysao:riotjs',
+    'baysao:riotjs@2.3.1-4',
     'underscore'
   ]);
 
